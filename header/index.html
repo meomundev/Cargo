@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="inner-header container">
+                <a href="#" class="logo">
+                    <img src="../assets/LogoTVCargo.png" alt="Logo" style="height: 100px">
+                </a>
+                <nav>
+                    <ul id="main-menu">
+                        <li class="active"><a href="../pages/home/index.html">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Partners</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">English</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <script>
+        document.querySelectorAll('#main-menu li').forEach(item => {
+            item.addEventListener('click', function () {
+                document.querySelectorAll('#main-menu li').forEach(li => li.classList.remove('active'));
+                item.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
+

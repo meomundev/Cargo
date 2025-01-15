@@ -1,0 +1,10 @@
+.main {
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+}
+
+.each-section {
+    height: max-content;
+    width: 100%;
+}

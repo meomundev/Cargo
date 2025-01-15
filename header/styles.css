@@ -23,7 +23,7 @@ header {
 }
 
 .logo-in {
-    height: 6rem;
+    height: 100px;
 }
 
 .inner-header {
@@ -54,9 +54,14 @@ ul#main-menu li.active a {
     /* font-weight: bold; */
 }
 
-
+.pushHeader {
+    height: 6rem;
+}
 @media (max-width: 768px) {
  
+        .pushHeader {
+            height: 4rem;
+        }
         .container {
             margin: 0px auto;
             max-width: 90%;

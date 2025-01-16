@@ -15,6 +15,16 @@ width: 70%;
     position: absolute;
 }
 
+.text-desc-sec3 {
+    transition: max-height 0.5s ease;
+}
+
+/* Trạng thái hiển thị */
+.text-desc-sec3.active {
+    max-height: 500px;
+
+}
+
 .img-background-with-container3 {
     width: 50%;
     top: 15%;
@@ -334,3 +344,141 @@ font-size: 3rem;
 .icon-sec4 {
     height: 40px;
 }
+
+.out-line-sec4 {
+    background-color: #152e47;
+        height: 1px;
+        width: 100%;
+}
+
+.text-sec4 {
+    color: #147e93;
+}
+
+.img-sec4 {
+    height: 20vw;
+    width: 35vw;
+    object-fit: cover;
+}
+
+@media (max-width: 992px) {
+
+    .img-sec4 {
+            height: 80%;
+            width:  100%;
+            object-fit: fill;
+        }
+}
+
+.title-sec6 {
+    position: absolute;
+}
+
+.video-sec6 {
+    position: relative;
+}
+
+.form-title-sec6 {
+    position: absolute;
+        z-index: 2;
+    left: 8rem;
+    padding-top: 100px;
+}
+
+.form-title-sec6-2 {
+    position: absolute;
+    z-index: 2;
+    right: 8rem;
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    padding-top: 100px;
+}
+
+.form-title2{
+background-color: #D6E6F8;
+    width: max-content;
+    height: max-content;
+    padding: 15px 30px;
+    border-radius: 2rem;
+}
+
+.title-text-static2 {
+    margin-top: 0;
+    padding-bottom: 0;
+        color: #152e47;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+}
+
+.desc-sec8 {
+
+    position: absolute;
+        z-index: 2;
+    width: 15vw;
+    right: 8rem;
+        color: white;
+        margin-top: 15rem;
+        font-size: 2.8vw;
+        text-align: center;
+}
+
+@media (max-width: 992px) {
+
+    .form-title-sec6 {
+        padding-top: 15px;
+        left: 1rem;
+    }
+
+    .form-title2 {
+        background-color: #D6E6F8;
+        width: max-content;
+        height: max-content;
+        padding: 10px 20px;
+        border-radius: 2rem;
+    }
+
+        .title-text-static2 {
+            margin-top: 0;
+            padding-bottom: 0;
+            color: #152e47;
+            font-weight: bold;
+            font-size: 0.8rem;
+            margin-bottom: 0;
+        }
+
+                .form-title-sec6-2 {
+                    position: absolute;
+                    z-index: 2;
+                    right: 1.5rem;
+                    align-items: end;
+                    justify-content: end;
+                    display: flex;
+                    padding-top: 25px;
+                }
+
+                                .desc-sec8 {
+                                    width: 80vw;
+                                        right: 2rem;
+                                        color: white;
+                                        margin-top: 6rem;
+                                        font-size: 1.5rem;
+                                        text-align: center;
+                                }
+}
+
+
+
+.font-text-title-about {
+    font-size: 2rem;
+    color: #152e47;
+}
+
+@media (max-width: 992px) {
+.font-text-title-about {
+        font-size: 1.5rem;
+        color: #152e47;
+    }
+}
+    

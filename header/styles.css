@@ -12,9 +12,12 @@ header {
     position: fixed;
      top: 0;
     /* left: 0; */
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 100%;
     z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.5);
+        /* Màu trắng trong suốt 50% */
+        backdrop-filter: blur(10px);
 }
 
 .container {
@@ -68,7 +71,7 @@ ul#main-menu li.active a {
         }
 
                 .logo-in {
-                    height: 4rem;
+                    height: 3rem;
                 }
     
         ul#main-menu {
@@ -76,6 +79,6 @@ ul#main-menu li.active a {
         }
     
         ul#main-menu a {
-            font-size: 0.5rem;
+            font-size: 0.8rem;
         }
 }
